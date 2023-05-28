@@ -1,1 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+.bg-danger{
+  background: linear-gradient(45deg,black,red);
+}
+.bg-primary{
+  background: linear-gradient(45deg,black,blue);
+}
+.bg-secondary{
+  background: linear-gradient(45deg,black,grey);
+}
+.bg-success{
+  background: linear-gradient(45deg,black,green);
+}
+.bg-warning{
+  background: linear-gradient(45deg,black,yellow);
+}
+.bg-info{
+  background: linear-gradient(45deg,black,lightskyblue);
+}
+
+.btn-danger{
+  background: linear-gradient(45deg,black,red);
+}
+.btn-primary{
+  background: linear-gradient(45deg,black,blue);
+}
+.btn-success{
+  background: linear-gradient(45deg,black,green);
+}
+.btn-warning{
+  background: linear-gradient(45deg,black,yellow);
+}
+.btn-info{
+  background: linear-gradient(45deg,black,lightskyblue);
+}
+.btn-secondary{
+  background: linear-gradient(45deg,black,grey);
+}
