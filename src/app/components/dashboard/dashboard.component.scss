@@ -3,13 +3,16 @@
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: flex-start;
-}
+  }
 .card{
   padding: 10px;
   height: 180px;
   outline: none;
   box-shadow: 0 0 5px lightblue;
   margin-right: 13px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .card:hover{
   cursor: pointer;

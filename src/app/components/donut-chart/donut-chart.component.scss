@@ -5,6 +5,9 @@
   border: none;
   box-shadow: 0 0 5px lightblue;
   margin-top: -255px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .card-header{
   height: 30px;
